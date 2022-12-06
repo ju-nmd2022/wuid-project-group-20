@@ -1,0 +1,531 @@
+#imagecontainer1copy { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+     
+    grid-column-gap: 0vw;
+    grid-row-gap: 0.5vw; 
+    justify-content: center;
+    }
+    .fa-user {
+    
+        position: relative;
+        color: #000D0C;
+        font-size: 6vw;
+        
+    }
+    
+    .fa-bag-shopping {
+        position: relative;
+        color: #000D0C;
+        font-size: 6vw;
+        
+    }
+    
+    .fa-globe {
+        position: relative;
+        color: #000D0C;
+        font-size: 6vw;  
+    }
+    .fa-bars{
+        position: relative;
+        color: #F6F0F4;
+        font-size: 6vw;
+    }
+    #hamburger{
+        position: absolute; top: 5vw; margin-left: 5vw;
+        
+    }
+    #icons { 
+        position: absolute;  top: 5vw; margin-left: 71vw;
+        display: grid; 
+        grid-template-columns: repeat(3, 2fr); 
+        grid-template-rows: 1fr; 
+        grid-column-gap: 4vw;
+        grid-row-gap: 0vw; 
+        
+        width: 20vw;
+        height: 0vw;
+        justify-items: start;
+    
+        } 
+#img3copy {
+    position: relative;
+        width: 100vw;
+        height: 70vw;
+        
+        object-fit: cover;
+
+    }
+#img3allcopy {
+        display: block;
+        width: 100vw;
+        height: 70vw;
+        
+        object-fit: cover;
+        
+    }
+#fishandchipscopy {
+    position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#fishandchipsallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #fishandchipsmaintextcopy{
+        position: absolute; top: 0vw; right: 50vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #fishandchipsmaintext2copy{
+        position: absolute; top: 15vw; right: 30vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #fishandchipsmaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #fishandchipsmaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+    
+
+#artcopy {
+    position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#artallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #artmaintextcopy{
+        position: absolute; top: 0vw; right: 59vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #artmaintext2copy{
+        position: absolute; top: 15vw; right: 49vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #artmaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #artmaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+#historycopy {
+    
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#historyallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #historymaintextcopy{
+        position: absolute; top: 0vw; right: 39vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #historymaintext2copy{
+        position: absolute; top: 15vw; right: 39vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #historymaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #historymaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+#partycopy {
+    
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#partyallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #partymaintextcopy{
+        position: absolute; top: 0vw; right: 49vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #partymaintext2copy{
+        position: absolute; top: 15vw; right: 47.5vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #partymaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #partymaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+#kewgardenscopy {
+    
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#kewgardensallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #kewgardensmaintextcopy{
+        position: absolute; top: 0vw; right: 36vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #kewgardensmaintext2copy{
+        position: absolute; top: 15vw; right: 25vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #kewgardensmaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #kewgardensmaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+#sealifecopy {
+    
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#sealifeallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #sealifemaintextcopy{
+        position: absolute; top: 0vw; right: 61vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #sealifemaintext2copy{
+        position: absolute; top: 15vw; right: 42vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #sealifemaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #sealifemaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+#harrypottercopy {
+    
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#harrypotterallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #harrypottermaintextcopy{
+        position: absolute; top: 0vw; right: 38.5vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #harrypottermaintext2copy{
+        position: absolute; top: 15vw; right: 53vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #harrypottermaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #harrypottermaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+#jacktherippercopy {
+    
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#jacktheripperallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #jacktherippermaintextcopy{
+        position: absolute; top: 0vw; right: 22vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #jacktherippermaintext2copy{
+        position: absolute; top: 15vw; right: 71vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #jacktherippermaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #jacktherippermaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+#dungeoncopy {
+    
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#dungeonallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #dungeonmaintextcopy{
+        position: absolute; top: 0vw; right: 14vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #dungeonmaintext2copy{
+        position: absolute; top: 15vw; right: 42vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #dungeonmaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #dungeonmaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+#zoocopy {
+    
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+#zooallcopy {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
+        
+        object-fit: cover;
+    }
+    #zoomaintextcopy{
+        position: absolute; top: 0vw; right: 56vw;
+        color: #F6F0F4;
+        font-size: 10vw;
+        font-family: sans-serif;
+
+    }
+    #zoomaintext2copy{
+        position: absolute; top: 15vw; right: 36vw;
+        color: #F6F0F4;
+        font-size: 4vw;
+        font-family: sans-serif;
+        font-weight: normal;
+
+    }
+    #zoomaintext3copy{
+        position: absolute; top: 34.5vw; right: 72vw;
+        color: #F6F0F4;
+        font-size: 5vw;
+        font-family: sans-serif;
+
+    }
+    #zoomaintext4copy{
+        position: absolute; top: 30vw; right: 6vw;
+        color: #F6F0F4;
+        font-size: 6vw;
+        font-family: sans-serif;
+
+    }
+    #rectanglecopy{
+        position: relative;  right: 0vw; left: 0vw;
+        
+        background-color: #7D000E;
+        width: 100vw;
+        height: 10vw;
+       
+    }
+    #rectangletextcopy {
+        position: absolute; bottom: 3vw; left: 8vw;
+        align-content: stretch;
+    
+        font-size: 1.7vw;
+        
+        font-family: sans-serif;
+        font-weight: normal;
+        
+        
+        width: 80vw;
+        height: 4vw;
+        color: #F6F0F4;
+        line-height: 3vw;
+        text-align: center;
+    }
+    #rectanglebottom{
+        position: relative; top: 0vw; right: 0%; left: 0%;
+        background-color: #7D000E;
+        width: 100%;
+        height: 10vw;  
+    }
+
+
+
