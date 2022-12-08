@@ -1,0 +1,362 @@
+body {
+    font-family:sans-serif;
+    background-color: #F6F0F4;
+}
+  .fa-user {
+    position: relative;
+    color: #7D000E;
+    font-size: 6vw;
+}
+
+.fa-bag-shopping {
+    position: relative;
+    color: #7D000E;
+    font-size: 6vw;
+}
+
+.fa-globe {
+    position: relative;
+    color: #7D000E;
+    font-size: 6vw;  
+}
+.fa-bars{
+    position: relative;
+    color: #7D000E;
+    font-size: 6vw;
+}
+#hamburger{
+    position: absolute; top: 5vw; margin-left: 5vw;
+}
+#icons { 
+    position: absolute;  top: 5vw; margin-left: 71vw;
+    display: grid; 
+    grid-template-columns: repeat(3, 2fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 4vw;
+    grid-row-gap: 0vw; 
+    width: 20vw;
+    height: 0vw;
+    justify-items: start;
+}
+#fish{
+    position: relative;
+    width: 40vw;
+    height: 60vw;
+    border-radius: 1vw;
+    object-fit: cover;
+}
+#imgcontainer{
+    position: absolute; top: 20vw; left: 5vw;
+    width: 50vw;
+    height: 50vw;
+}
+#rectanglewhite{
+    position: absolute; top: 41vw; 
+    height: 20vw;
+    width: 40vw;
+    background-color: #FFFDFD;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+#foodtext{
+    position: absolute; top: 40vw; left: 1vw;
+    font-size: 3.5vw;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+#adult{
+    position: absolute; top: 46vw; left: 1vw;
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#date{
+    position: absolute; top: 49vw; left: 1vw;
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: lighter;   
+}
+#language{
+    position: absolute; top: 52vw; left: 1vw;
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: lighter;   
+}
+#trash {
+    position: relative; top: 38vw; left: 57vw; 
+    width: fit-content;
+}
+.fa-trash{
+    position: absolute;
+    color: #7D000E;
+    font-size: 8vw;
+}
+#one{
+    position: relative; top: 38vw; left: 68vw;
+    width: fit-content;
+}
+#onetext {
+    position: absolute;
+    font-size: 6vw;
+    color: #7D000E;
+}
+#plusminus{
+    position: relative; top: 38vw; left: 75vw;
+    width: fit-content;
+
+}
+.fa-plus-minus{
+    position: absolute;
+    color: #7D000E;
+    font-size: 8vw;
+}
+#total{
+    position: relative; top: 50vw; left: 60vw; 
+    width: 20vw;
+
+}
+#totaltext{
+ font-size: 3vw;
+ position: absolute;
+ color: #7D000E;
+}
+#button{
+    position: relative; top: 63vw; left: 60vw;
+    width: fit-content;
+}
+#buttonbuy{
+    width: 20vw;
+    height: 8vw;
+    border: none;
+    background-color: #7D000E;
+    position: relative;
+    border-radius: 5vw;
+}
+#buy{
+    position: relative; bottom: 3vw;
+    font-family: sans-serif;
+    color: #F6F0F4;
+    font-size: 4vw;
+    
+}
+#contact{
+    position: relative; top: 81vw; left: 35vw;
+    width: fit-content;
+}
+#contacttext{
+    position: absolute;
+    font-size: 6vw;
+    color: #7D000E;
+}
+#name{
+    position: relative; top: 95vw; left: 10vw;
+    width: fit-content;
+}
+#nametext{
+    position: absolute;
+    font-size: 4vw;
+    color: #7D000E;
+    width: fit-content;
+}
+#surname{
+    position: relative; top: 95vw; left: 60vw;
+    width: fit-content;
+}
+#surnametext{
+    position: absolute;
+    font-size: 4vw;
+    color: #7D000E;
+    width: fit-content;
+}
+#emailadress{
+    position: relative; top: 115vw; left: 10vw;
+    width: 50vw;
+}
+#emailadresstext{
+    position: absolute;
+    font-size: 4vw;
+    color: #7D000E;
+}
+#phonenumber{
+    position: relative; top: 115vw; left: 60vw;
+    width: 30vw;
+}
+#phonenumbertext{
+    position: absolute;
+    font-size: 4vw;
+    color: #7D000E;
+}
+#input1container{
+    position: relative; top: 105vw; left: 10vw;
+    width: fit-content;
+}
+#input1{
+    position: absolute;
+    width: 30vw;
+    height: 6vw;
+    border: 0.2vw solid #7D000E;
+    border-radius: 3vw;
+    background-color: #F6F0F4; 
+}
+#input2container{
+    position: relative; top: 105vw; left: 60vw;
+    width: fit-content;
+}
+#input2{
+    position: absolute;
+    width: 30vw;
+    height: 6vw;
+    border: 0.2vw solid #7D000E;
+    border-radius: 3vw;
+    background-color: #F6F0F4;   
+}
+#input3container{
+    position: relative; top: 125vw; left: 10vw;
+    width: fit-content;
+}
+#input3{
+    position: absolute;
+    width: 30vw;
+    height: 6vw;
+    border: 0.2vw solid #7D000E;
+    border-radius: 3vw;
+    background-color: #F6F0F4;   
+}
+#input4container{
+    position: relative; top: 125vw; left: 60vw;
+    width: fit-content;
+
+}
+#input4{
+    position: absolute;
+    width: 30vw;
+    height: 6vw;
+    border: 0.2vw solid #7D000E;
+    border-radius: 3vw;
+    background-color: #F6F0F4;   
+}
+#paymentmethod{
+   position: relative; top: 140vw; left: 21vw;
+   width: 60vw;
+}
+#paymentmethodtext{
+    position: absolute;
+    font-size: 6vw;
+    color: #7D000E;
+}
+#cardnumber{
+    position: relative; top: 154vw; left: 10vw;
+    width: 30vw
+}
+#cardnumbertext{
+    position: absolute;
+    font-size: 4vw;
+    color: #7D000E;
+}
+#input5container{
+    position: relative; top: 164vw; left: 10vw;
+    width: fit-content;
+}
+#input5{
+    position: absolute;
+    width: 80vw;
+    height: 6vw;
+    border: 0.2vw solid #7D000E;
+    border-radius: 3vw;
+    background-color: #F6F0F4;   
+}
+#expirydate{
+    position: relative; top: 174vw; left: 10vw;
+    width: 30vw;
+}
+#expirydatetext{
+    position: absolute;
+    font-size: 4vw;
+    color: #7D000E;
+}
+#input6container{
+    position: relative; top: 184vw; left: 10vw;
+    width: fit-content;
+}
+#input6{
+    position: absolute;
+    width: 30vw;
+    height: 6vw;
+    border: 0.2vw solid #7D000E;
+    border-radius: 3vw;
+    background-color: #F6F0F4;   
+}
+#cvvcode{
+    position: relative; top: 174vw; left: 60vw;
+    width: 20vw;
+}
+#cvvcodetext{
+    position: absolute;
+    font-size: 4vw;
+    color: #7D000E;
+}
+#input7container{
+    position: relative; top: 184vw; left: 60vw;
+    width: fit-content;
+}
+#input7{
+    position: absolute;
+    width: 30vw;
+    height: 6vw;
+    border: 0.2vw solid #7D000E;
+    border-radius: 3vw;
+    background-color: #F6F0F4;   
+}
+#visa {
+    position: relative; top: 198vw; left: 10vw; 
+    width: fit-content;
+
+}
+.fa-cc-visa{
+ position: absolute;
+ color: #7D000E;
+ font-size: 6vw;
+}
+#paypal {
+    position: relative; top: 198vw; left: 20vw; 
+    width: fit-content;
+}
+.fa-cc-paypal{
+    position: absolute;
+    color: #7D000E;
+    font-size: 6vw;
+}
+#master {
+    position: relative; top: 198vw; left: 30vw; 
+    width: fit-content;
+}
+.fa-cc-mastercard{
+    position: absolute;
+    color: #7D000E;
+    font-size: 6vw;
+}
+#bottomrectangle{
+    position: relative; top: 210vw;; left: 0%; right: 0%;
+    height: 5vw;
+    width: 100vw;
+    background-color: #7D000E;
+}
+#user2{
+    position: relative; top: 80vw; left: 66vw;
+    width: 20vw; 
+}
+.fa-users{
+    position: absolute;
+    color: #7D000E;
+    font-size: 6vw;
+}
+#wallet{
+    position: relative; top: 139vw; left: 79vw;
+    width: fit-content;
+}
+.fa-wallet{
+    position: absolute;
+    color: #7D000E;
+    font-size: 6vw;
+}

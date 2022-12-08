@@ -1,0 +1,191 @@
+
+body {
+    font-family:sans-serif;
+    background-color: #F6F0F4;
+    margin: 0;
+  }
+ .desktop .fa-user {
+    position: relative;
+    color: #7D000E;
+    font-size: 4vw;
+}
+
+.desktop .fa-bag-shopping {
+    position: relative;
+    color: #7D000E;
+    font-size: 4vw;
+}
+
+.desktop .fa-globe {
+    position: relative;
+    color: #7D000E;
+    font-size: 4vw;  
+}
+
+.desktop #home {
+    position: relative;
+    background-color: #7D000E;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+    font-weight: 600;
+    width: 10vw;
+    height: 4vw;
+    color: #F6F0F4;
+    text-align: center;
+}
+
+.desktop #tours {
+    position: relative;
+    background-color: #7D000E;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+    font-weight: 600;
+    width: 10vw;
+    height: 4vw;
+    color: #F6F0F4;
+    text-align: center;
+}
+.desktop #aboutus {
+    position: relative;
+    
+    background-color: #7D000E;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+    font-weight: 600;
+    min-width: 10vw;
+    min-height: 4vw;
+    color: #F6F0F4;
+    text-align: center;
+}
+.desktop #contactus {
+    position: relative;
+    background-color: #7D000E;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+    font-weight: 600;
+    justify-content: center;
+    width: 10vw;
+    height: 4vw;
+    color: #F6F0F4;
+   text-align: center;
+}
+.desktop #buttons {
+    position: relative; top: 2vw;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(4, 1fr);
+ grid-column-gap: 0vw;
+ grid-row-gap: 0vw;
+ justify-items: right;
+ width: 50vw;
+ height: 0vw;
+}
+.desktop #icons { 
+    position: relative;  top: 2vw; margin-left: 82vw;
+    display: grid; 
+    grid-template-columns: repeat(3, 2fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0vw;
+    grid-row-gap: 0vw; 
+    width: 16vw;
+    height: 0vw;
+    justify-items: start;
+    }
+    .desktop #rectangle{
+        position: relative; top: 10vw; right: 0vw; left: 0vw;
+        background-color: #7D000E;
+        width: 100vw;
+        height: 5vw;
+    }
+    .desktop #rectangletext {
+        position: absolute; bottom: 0vw; left: 42vw;
+        align-content: stretch;
+        font-size: 2vw;
+        font-family: sans-serif;
+        font-weight: normal;
+        color: #F6F0F4;
+    }
+    .desktop #check {
+        position: relative; top: 18vw; left: 43vw;
+        width: fit-content;
+    }
+    .desktop .fa-circle-check{
+        position: absolute;
+        font-size: 10vw;
+        color: #7D000E;
+    }
+    .desktop h2{
+        position:relative; top: 30vw; left: 23vw;
+        font-size: 3vw;
+        color: #F6F0F4;
+        -webkit-text-stroke: 0.1vw #F6F0F4;
+        text-transform: uppercase;
+        width: 90vw;
+    
+      }
+    
+      .desktop h2::before
+      {
+        align-items: center;
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 100;
+        width: 0;
+        height: 100%;
+        color: #7D000E;
+        -webkit-text-stroke: 0vw #F6F0F4 ;
+        overflow: hidden;
+        animation: animate 5s linear infinite;
+        white-space : nowrap
+      }
+    
+    @keyframes animate
+    {
+        0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 80%;
+    }
+    }
+.desktop #you{
+    position: relative;
+
+}  
+.desktop #youtext{
+    position: absolute; top: 35vw; left: 20vw;
+    color: #7D000E;
+    font-size: 2.5vw;
+    width: 80vw;
+}  
+.desktop #rectanglebottom{
+    position: relative; top: 50vw; right: 0vw; left: 0vw;
+    
+    background-color: #7D000E;
+    width: 100vw;
+    height: 5vw;
+}
+.mobile{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .mobile{
+        display: inline-block;
+}
+
+.desktop{
+    display: none;
+}
+}
+   

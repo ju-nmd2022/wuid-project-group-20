@@ -1,0 +1,122 @@
+
+body {
+    font-family:sans-serif;
+    background-color: #F6F0F4;
+    margin: 0;
+  }
+  .fa-user {
+    position: relative;
+    color: #7D000E;
+    font-size: 6vw;
+}
+
+.fa-bag-shopping {
+    position: relative;
+    color: #7D000E;
+    font-size: 6vw;
+}
+
+.fa-globe {
+    position: relative;
+    color: #7D000E;
+    font-size: 6vw;  
+}
+.fa-bars{
+    position: relative;
+    color: #7D000E;
+    font-size: 6vw;
+}
+#hamburger{
+    position: absolute; top: 5vw; margin-left: 5vw;
+}
+#icons { 
+    position: absolute;  top: 5vw; margin-left: 71vw;
+    display: grid; 
+    grid-template-columns: repeat(3, 2fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 4vw;
+    grid-row-gap: 0vw; 
+    width: 20vw;
+    height: 0vw;
+    justify-items: start;
+}
+#rectangle{
+    position: relative; top: 15vw; 
+    background-color: #7D000E;
+    width: 100vw;
+    height:15vw;
+}
+#rectangletext {
+    position: absolute; bottom: 0vw; left: 30vw;
+    align-content: stretch;
+    font-size: 6vw;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #F6F0F4;
+}
+#check {
+    position: relative; top: 40vw; left: 40vw;
+    width: fit-content;
+}
+.fa-circle-check{
+    position: absolute;
+    font-size: 20vw;
+    color: #7D000E;
+}
+
+h2{
+    position:relative; top: 70vw; left: 14vw;
+    font-size: 4vw;
+    color: #F6F0F4;
+    -webkit-text-stroke: 0.1vw #F6F0F4;
+    text-transform: uppercase;
+    width: 80vw;
+  }
+
+  h2::before
+  {
+    align-items: center;
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 100;
+    width: 0;
+    height: 100%;
+    color: #7D000E;
+    -webkit-text-stroke: 0vw #F6F0F4 ;
+    overflow: hidden;
+    animation: animate 5s linear infinite;
+    white-space : nowrap
+  }
+
+@keyframes animate
+{
+    0%,10%,100%
+{
+    width: 0;
+}
+70%,90%
+{
+    width: 70%;
+}
+}
+
+.mobile #you{
+position: relative; top: 82vw; left: 8.5vw;
+width: 85vw;
+}
+
+.mobile #youtext{
+position: absolute;
+font-size: 3.5vw;
+font-family: sans-serif;
+color: #7D000E;
+}
+#rectanglebottom{
+position: relative; top: 136.3vw; right: 0vw; left: 0vw;
+
+background-color: #7D000E;
+width: 100vw;
+height: 15vw;
+}
+

@@ -1,85 +1,68 @@
+
 body {
-    background-color: #FEDFDC;
-
-
+    background-color: #F6F0F4;
+    margin: 0;
 }
-.fa-user {
-    
+ .desktop .fa-user {
     position: relative;
     color: #000D0C;
     font-size: 4vw;
-    
 }
 
-.fa-bag-shopping {
+.desktop .fa-bag-shopping {
     position: relative;
     color: #000D0C;
     font-size: 4vw;
-    
 }
 
-.fa-globe {
+.desktop .fa-globe {
     position: relative;
     color: #000D0C;
     font-size: 4vw;  
 }
 
-#home {
+.desktop #home {
     position: relative;
-    
     background-color: #7D000E;
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
     font-size: 1.3vw;
     font-weight: 600;
-    
-    
     width: 10vw;
     height: 4vw;
     color: #F6F0F4;
-    
     text-align: center;
 }
 
-#tours {
+.desktop #tours {
     position: relative;
-    
     background-color: #7D000E;
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
     font-size: 1.3vw;
     font-weight: 600;
-    
-    
     width: 10vw;
     height: 4vw;
     color: #F6F0F4;
-    
     text-align: center;
 }
-#aboutus {
+.desktop #aboutus {
     position: relative;
-    
     background-color: #7D000E;
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
     font-size: 1.3vw;
     font-weight: 600;
-    
-    
-    
     min-width: 10vw;
     min-height: 4vw;
     color: #F6F0F4;
-    
     text-align: center;
 }
-#contactus {
+.desktop #contactus {
     position: relative;
-    
     background-color: #7D000E;
     border: 0;
     border-radius: 100px;
@@ -87,80 +70,62 @@ body {
     font-size: 1.3vw;
     font-weight: 600;
     justify-content: center;
-
     width: 10vw;
     height: 4vw;
     color: #F6F0F4;
-    
     text-align: center;
 }
-#fishandchips {
-    
-    
+.desktop #fishandchips {
     width: 27vw;
     height: 27vw;
-    
     border-radius: 20px;
     object-fit: cover;
-    
 }
-#fishandchipsall {
+.desktop #fishandchipsall {
     position: relative;
     width: 27vw;
     height: 27vw;
-    
     border-radius: 20px;
     object-fit: cover;
-    
 }
-#rectanglefishandchips{
+.desktop #rectanglefishandchips{
     position: absolute; bottom: -2%; 
     height: 9vw;
     width: 27vw;
     background-color: #FFFDFD;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    
 }
 
-#fishandchipsmaintext{
+.desktop #fishandchipsmaintext{
     position: absolute; bottom: 3vw; left: 1vw;
     font-size: 2.7vw;
     font-family: sans-serif;
     font-weight: normal;
-    
 }
-#fishandchipsmaintext2{
+.desktop #fishandchipsmaintext2{
     position: absolute; bottom: 2.3vw; left: 1vw;
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
-#fishandchipsmaintext3{
+.desktop #fishandchipsmaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
     font-size: 1.4vw;
     font-family: sans-serif;
     font-weight: bold;   
 }
-#fishandchipsmaintext4{
+.desktop #fishandchipsmaintext4{
     position: absolute; bottom: -1.2vw; left: 19vw;
     font-size: 1.4vw;
     font-family: sans-serif;
     font-weight: bolder;   
 }
-
-
-
-
 #art {
-    
-    
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
-   
 }
 #artall {
     position: relative;
@@ -168,7 +133,6 @@ body {
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
-   
 }
 #rectangleart{
     position: absolute; bottom: -2%; 
@@ -190,7 +154,6 @@ body {
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #artmaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -205,13 +168,10 @@ body {
     font-weight: bolder;   
 }
 #history {
-    
-   
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
-    
 }
 #historyall {
     position: relative;
@@ -235,14 +195,12 @@ body {
     font-size: 2.7vw;
     font-family: sans-serif;
     font-weight: normal;
-    
 }
 #historymaintext2{
     position: absolute; bottom: 2.3vw; left: 1vw;
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #historymaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -258,11 +216,9 @@ body {
 }
 #rectangle{
     position: relative; top: 10vw; right: 0vw; left: 0vw;
-    
     background-color: #7D000E;
     width: 100vw;
     height: 10vw;
-   
 }
 #rectangletext {
     position: absolute; bottom: 3vw; left: 8vw;
@@ -277,12 +233,11 @@ body {
     text-align: center;
 }
 #rectanglebottom{
-    position: relative; top: 160vw; right: 0%; left: 0%;
+    position: relative; top: 143vw; right: 0%; left: 0%;
     background-color: #7D000E;
     width: 100%;
     height: 10vw;  
 }
-
 #party {
     width: 27vw;
     height: 27vw;
@@ -316,7 +271,6 @@ body {
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #partymaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -331,12 +285,10 @@ body {
     font-weight: bolder;   
 }
 #kewgardens {
-    
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
-    
 }
 #kewgardensall {
     position: relative;
@@ -344,7 +296,6 @@ body {
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
-    
 }
 #rectanglekewgardens{
     position: absolute; bottom: -2%; 
@@ -359,14 +310,12 @@ body {
     font-size: 2.7vw;
     font-family: sans-serif;
     font-weight: normal;
-    
 }
 #kewgardensmaintext2{
     position: absolute; bottom: 2.3vw; left: 1vw;
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #kewgardensmaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -381,7 +330,6 @@ body {
     font-weight: bolder;   
 }
 #sealife {
-    
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
@@ -407,14 +355,12 @@ body {
     font-size: 2.7vw;
     font-family: sans-serif;
     font-weight: normal;
-    
 }
 #sealifemaintext2{
     position: absolute; bottom: 2.3vw; left: 1vw;
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #sealifemaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -429,7 +375,6 @@ body {
     font-weight: bolder;   
 }
 #harrypotter {
-    
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
@@ -455,14 +400,12 @@ body {
     font-size: 2.7vw;
     font-family: sans-serif;
     font-weight: normal;
-    
 }
 #harrypottermaintext2{
     position: absolute; bottom: 2.3vw; left: 1vw;
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #harrypottermaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -477,7 +420,6 @@ body {
     font-weight: bolder;   
 }
 #jacktheripper {
-    
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
@@ -510,7 +452,6 @@ body {
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #jacktherippermaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -525,14 +466,11 @@ body {
     font-weight: bolder;   
 }
 
-#zoo {
-    
+#zoo { 
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
-    
-
 }
 
 #zooall {
@@ -542,7 +480,6 @@ body {
     border-radius: 20px;
     object-fit: cover;
     grid-column: 2;
-
 }
 #rectanglezoo{
     position: absolute; bottom: -2%; 
@@ -557,14 +494,12 @@ body {
     font-size: 2.7vw;
     font-family: sans-serif;
     font-weight: normal;
-    
 }
 #zoomaintext2{
     position: absolute; bottom: 2.3vw; left: 1vw;
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #zoomaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -579,12 +514,10 @@ body {
     font-weight: bolder;   
 }
 #dungeon {
-    
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
-    
 }
 #dungeonall {
     position: relative;
@@ -592,7 +525,6 @@ body {
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
-    
 }
 #rectangledungeon{
     position: absolute; bottom: -2%; 
@@ -614,7 +546,6 @@ body {
     font-size: 1.2vw;
     font-family: sans-serif;
     font-weight: lighter;
-    
 }
 #dungeonmaintext3{
     position: absolute; bottom: -0.7vw; left: 1vw;
@@ -628,7 +559,6 @@ body {
     font-family: sans-serif;
     font-weight: bolder;   
 }
-
 #imagecontainer1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -638,9 +568,8 @@ body {
     padding-top: 4vw;
     justify-content: center;
     padding-left: 5vw;
-    }
-
-#buttons {
+ }
+.desktop #buttons {
     position: relative; top: 2vw;
  display: grid;
  grid-template-columns: repeat(4, 1fr);
@@ -648,21 +577,30 @@ body {
  grid-column-gap: 0vw;
  grid-row-gap: 0vw;
  justify-items: right;
- 
  width: 50vw;
  height: 0vw;
 }
-#icons { 
+.desktop #icons { 
     position: relative;  top: 2vw; margin-left: 82vw;
     display: grid; 
     grid-template-columns: repeat(3, 2fr); 
     grid-template-rows: 1fr; 
     grid-column-gap: 0vw;
     grid-row-gap: 0vw; 
-    
     width: 16vw;
     height: 0vw;
     justify-items: start;
-
+}
+    .mobile{
+        display: none;
+    }
+    @media only screen and (max-width: 600px){
+        .mobile{
+            display: inline-block;
+    }
+    
+    .desktop{
+        display: none;
+    }
     }
     
