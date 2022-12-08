@@ -63,7 +63,7 @@ body {
     font-size: 20vw;
     color: #7D000E;
 }
-
+<!-- The following 36 lines of code was adapted fromhttps://www.youtube.com/watch?v=ccO2B40zkv4&t=1s  -->
 h2{
     position:relative; top: 70vw; left: 14vw;
     font-size: 4vw;
@@ -119,7 +119,7 @@ background-color: #7D000E;
 width: 100vw;
 height: 15vw;
 }
-
+<!-- The following 64 lines of code was adapted from https://www.youtube.com/watch?v=OFKBep95lb4&list=LL&index=2 -->
 #hamburger{
     position: absolute; top: 5vw; margin-left: 5vw;
 }
