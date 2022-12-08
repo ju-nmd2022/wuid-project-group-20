@@ -77,13 +77,13 @@ body {
     text-align: center;
 }
 .desktop #fishandchips {
-    width: 27vw;
+    width: 27vw; 
     height: 27vw;
     border-radius: 20px;
     object-fit: cover;
 }
 .desktop #fishandchipsall {
-    position: relative;
+    position: relative; margin-left: -1vw;
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
@@ -129,7 +129,7 @@ body {
     object-fit: cover;
 }
 #artall {
-    position: relative;
+    position: relative; margin-right: 1vw;
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
@@ -175,7 +175,7 @@ body {
     object-fit: cover;
 }
 #historyall {
-    position: relative;
+    position: relative; margin-right: 3vw;
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
@@ -246,7 +246,7 @@ body {
     object-fit: cover;
 }
 #partyall {
-    position: relative;
+    position: relative; margin-left: -1vw;
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
@@ -382,7 +382,7 @@ body {
     object-fit: cover;
 }
 #harrypotterall {
-    position: relative;
+    position: relative; margin-left: -1vw;
     width: 27vw;
     height: 27vw;
     border-radius: 20px;
