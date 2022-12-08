@@ -1,3 +1,4 @@
+<!-- The following 17 lines of code was adapted from https://www.youtube.com/watch?v=OFKBep95lb4&list=LL&index=2 -->
 window.onload = function () {
 	window.addEventListener('scroll', function (e) {
 		if (window.pageYOffset > 100) {
