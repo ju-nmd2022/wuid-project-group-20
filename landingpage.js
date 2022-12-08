@@ -1,3 +1,4 @@
+ <!-- The following 17 lines of code was adapted from https://www.youtube.com/watch?v=9HcxHDS2w1s&list=LL&index=1&t=278s -->
 const buttons = document.querySelectorAll("[data-carousel-button]")
 
 buttons.forEach(button => {
@@ -16,7 +17,7 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
-
+<!-- The following 16 lines of code was adapted from https://www.youtube.com/watch?v=OFKBep95lb4&list=LL&index=2 -->
 window.onload = function () {
 	window.addEventListener('scroll', function (e) {
 		if (window.pageYOffset > 100) {
