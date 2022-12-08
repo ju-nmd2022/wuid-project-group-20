@@ -414,17 +414,18 @@ body {
      position: absolute;
      color: #7D000E;
       }
-     .desktop #button{
+     .desktop #button1{
         position: relative; top: 47.5vw; left: 9vw;
         width: fit-content;
       }
-     .desktop #buttonbuy{
+     .desktop #buttonbuy1{
         width: 10vw;
         height: 4vw;
         border: none;
         background-color: #7D000E;
         position: relative;
         border-radius: 5vw;
+        color: #F6F0F4;
       }
      .desktop #buy{
         position: relative; bottom: 1.3vw;
@@ -450,5 +451,8 @@ body {
     
     .desktop{
         display: none;
+    }
+    .mobile .hamburger{
+        display: block;
     }
     }

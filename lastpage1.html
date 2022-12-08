@@ -16,12 +16,11 @@
         <i class="fa-solid fa-globe"></i>
        </div>
        <div id="buttons">
-        <button id="home">HOME</button>
-        
-        <button id="tours">TOURS</button>
-        <button id="aboutus">ABOUT US</button>
-        <button id="contactus">CONTACT US</button>
-       </div>
+        <a href="index.html"><button id="home">HOME</button></a>
+        <a href="category.html"><button id="tours">TOURS</button></a>
+     <button id="aboutus">ABOUT US</button>
+     <button id="contactus">CONTACT US</button>
+    </div>
        <div id="rectangle"><h1 id="rectangletext">THANK YOU!</h1></div>
        <div id="check">
          <i class="fa-regular fa-circle-check"></i>
@@ -33,12 +32,24 @@
             <div id="rectanglebottom"></div>
     </div>
     <div class="mobile"> 
+        <div class="container">
+        
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+        </div>
+        </header>
+        <nav class="mobile-nav">
+        <a href="index.html">HOME</a>
+        <a href="category.html">TOURS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+        </nav>
         <div id="icons">
             <i class="fa-solid fa-user" ></i>
             <i class="fa-solid fa-bag-shopping"></i>
             <i class="fa-solid fa-globe"></i>
            </div>
-           <div id="hamburger"><i class="fa-solid fa-bars"></i></div>
            <div id="rectangle"><h1 id="rectangletext">THANK YOU!</h1></div>
            <div id="check">
             <i class="fa-regular fa-circle-check"></i>
@@ -49,5 +60,6 @@
                </div>
                <div id="rectanglebottom"></div>  
     </div>
+    <script src="ordermobile.js"></script>
 </body>
 </html>

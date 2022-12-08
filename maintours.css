@@ -2,6 +2,7 @@
 body {
     background-color: #F6F0F4;
     margin: 0;
+    font-family: sans-serif;
 }
  .desktop .fa-user {
     position: relative;
