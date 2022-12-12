@@ -26,9 +26,7 @@ body {
     color: #7D000E;
     font-size: 6vw;
 }
-#hamburger{
-    position: absolute; top: 5vw; margin-left: 5vw;
-}
+
 #icons { 
     position: absolute;  top: 5vw; margin-left: 71vw;
     display: grid; 
@@ -63,6 +61,8 @@ body {
     font-size: 20vw;
     color: #7D000E;
 }
+
+<!-- The following 38 lines of code was adapted from https://www.youtube.com/watch?v=ccO2B40zkv4&t=1s -->
 
 h2{
     position:relative; top: 70vw; left: 14vw;
