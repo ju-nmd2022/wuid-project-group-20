@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="maintours.css" />
     <link rel="stylesheet" href="landingpage.css">
     <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/font/MaterialIcons-Regular.ttf">
     <script src="https://kit.fontawesome.com/a83536e471.js" crossorigin="anonymous"></script>
     <title>About us</title>
   </head>
@@ -19,7 +21,6 @@
         <i class="fa-solid fa-bag-shopping"></i>
         <i class="fa-solid fa-globe"></i>
       </div>
-
       <div id="buttons">
         <a href="index.html"><button id="home">HOME</button></a>
         <a href="category.html"><button id="tours">TOURS</button></a>
@@ -27,7 +28,7 @@
         <button id="contactus">CONTACT US</button>
     </div>
     <div id="rectangle"><h1 class="desktop" id="rectangletext">Who are we?</h1></div>
-    <img id="wee" src="Groppic.jpg" alt="pictureofus">
+ 
 
     <div id="textblock">
        <!-- Image taken from Unsplash -->
@@ -46,6 +47,44 @@
       </br>
       <img id="wee" src="Groppic.jpg" alt="pictureofus">
     </div>
+         <!-- the following code is taken from this video,https://www.youtube.com/watch?v=C3JKS3a4R5Y&t=239s  -->
+         
+         
+         <section>
+            <h2>Chat popup</h2>
+            <p>Click here!</p>
+            
+            <button class="chat-btn"><i class="material-symbols-outlined"> <span style='font-size:100px;'>&#9993;</span> </i>
+            </button>
+
+            <div class="chat-popup">
+                <!-- the following code shows the badge, also incoming message and pictur of sender -->
+                  <div class="badge">1</div>
+                  <div class="chat-area">
+                    <div class="incom-msg">
+                        <img src="chat.jpg" class="avatar" alt="pic">
+                        <span class="msg"> Hi! How can I help you? </span>
+                    </div>
+                  </div>
+            
+                  <!-- the following code designs the part where you can write message, find emoji and hit send -->
+                  <div class="input-area">
+                    <input type="text">
+                    <button id="emoji-btn"> &#128515; </button>
+                    <button class="submit"><i class="material-icons">send</i> </button>
+                  </div>
+             </div>
+            </section>
+    
+
+
+
+
+
+
+
     <div id="rectangledown"></div>
+    <script src="aboutus.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@joeattradi/emoji-button@3.1.1/dist/index.min.js"></script>
   </body>
 </html>

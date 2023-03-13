@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: F6F0F4;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100;
+}
+
+section {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+.chat-btn {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background: white;
+  color: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  box-shadow: 0 5px 5px, rgba(0, 0, 0, 0.4);
+}
+
+.chat-btn:hover {
+  opacity: 1;
+}
+
+.chat-popup {
+  /* display: none; */
+  position: fixed;
+  bottom: 80px;
+  right: 120px;
+  height: 400px;
+  width: 300px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.75rem;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.chat-area {
+  height: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.income-msg {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.income-msg .msg {
+  background-color: #f4e2e4;
+  color: rgb(195, 195, 190);
+  padding: 0.5rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.4);
+}

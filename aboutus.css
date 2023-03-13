@@ -16,9 +16,27 @@
   text-align: center;
 }
 
+/* Kod för rätt färger på symbolen */
+.desktop .fa-user {
+  position: relative;
+  color: #000d0c;
+  font-size: 4vw;
+}
+
+.desktop .fa-bag-shopping {
+  position: relative;
+  color: #000d0c;
+  font-size: 4vw;
+}
+
+.desktop .fa-globe {
+  position: relative;
+  color: #000d0c;
+  font-size: 4vw;
+}
 #rectangledown {
   position: relative;
-  top: 35vw;
+  top: 100vw;
   right: 0vw;
   left: 0vw;
 
