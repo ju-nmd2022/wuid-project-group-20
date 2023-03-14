@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
 // Chat btn toggel
 
 chatBtn.addEventListener("click", () => {
-  popup.classList.toggle("show");
+  popup.classList.toggle("block");
 });
 
 // send msg
@@ -28,7 +28,7 @@ submitBtn.addEventListener("click", () => {
 
   let temp = `<div class="out-msg">
     <span class="my-msg">${userInput}</span>
-    <img src="img/chat.jpg" class="avatar">
+    <img src="me.jpg" class="avatar">
     </div>`;
 
   chatArea.insertAdjacentHTML("beforeend", temp);
