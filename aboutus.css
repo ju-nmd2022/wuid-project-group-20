@@ -44,3 +44,18 @@
   width: 100vw;
   height: 10vw;
 }
+.chat-popup {
+  display: none;
+  display: fixed;
+  bottom: 80px;
+  right: 120px;
+  height: 400px;
+  width: 300px;
+  background-color: beige;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.75rem;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+  border-radius: 10px;
+}

@@ -5,20 +5,17 @@ const chatArea = document.querySelector(".chat-area");
 const inputElm = document.querySelector("input");
 const emojiBtn = document.querySelector("#emoji-btn");
 
-// Emoji
-window.addEventListener("DOMContentLoaded", () => {
-  picker.on("emoji", (emoji) => {
-    document.querySelector("input").value += emoji;
-  });
+// // Emoji
+window.addEventListener("DOMContentLoaded", () => {});
 
-  emojiBtn.addEventListener("click", () => {
-    picker.togglePicker(emojiBtn);
-  });
+emojiBtn.addEventListener("click", () => {
+  picker.togglePicker(emojiBtn);
 });
 
 // Chat btn toggel
 
 chatBtn.addEventListener("click", () => {
+  console.log("yes");
   popup.classList.toggle("block");
 });
 
