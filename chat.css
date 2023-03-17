@@ -106,7 +106,7 @@ input {
   width: 250px;
   border: 1px solid #ccc;
   font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 4px;
   height: 2.2rem;
 }
 
@@ -121,7 +121,7 @@ input {
 
 .submit {
   padding: 0.25rem 0.5rem;
-  margin-left: 0.5rem;
+  margin-left: 0rem;
   background-color: green;
   color: #f4e2e4;
   display: flex;
@@ -145,4 +145,10 @@ input {
   border-radius: 25px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   word-break: break-all;
+}
+
+.material-symbols-outlined {
+  position: relative;
+  top: -14px;
+  right: 5px;
 }

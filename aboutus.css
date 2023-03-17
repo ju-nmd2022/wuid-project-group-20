@@ -15,6 +15,10 @@
   font-family: sans-serif;
   text-align: center;
 }
+#rectangletext {
+  position: relative;
+  top: 40px;
+}
 
 /* Kod för rätt färger på symbolen */
 .desktop .fa-user {
@@ -34,28 +38,28 @@
   color: #000d0c;
   font-size: 4vw;
 }
-#rectangledown {
-  position: relative;
-  top: 100vw;
-  right: 0vw;
-  left: 0vw;
-
-  background-color: #7d000e;
-  width: 100vw;
-  height: 10vw;
-}
 .chat-popup {
   display: fixed;
   /* display: fixed; */
   position: fixed;
   bottom: 80px;
   right: 120px;
-  height: 400px;
+  height: 350px;
   width: 300px;
-  background-color: beige;
+  background-color: rgb(195, 195, 178);
   flex-direction: column;
   justify-content: space-between;
   padding: 0.75rem;
   box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
   border-radius: 10px;
+}
+
+#rectangledown {
+  position: relative;
+  top: 50px;
+  left: -814px;
+
+  background-color: #7d000e;
+  width: 100vw;
+  height: 10vw;
 }
