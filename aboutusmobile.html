@@ -4,33 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="description.css">
-    <link rel="stylesheet" href="maincopy.css" />
-    <link rel="stylesheet" href="maintours.css" />
-    <link rel="stylesheet" href="landingpage.css">
-    <link rel="stylesheet" href="aboutus.css">
-    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="Aboutusmobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/font/MaterialIcons-Regular.ttf">
     <script src="https://kit.fontawesome.com/a83536e471.js" crossorigin="anonymous"></script>
     <title>About us</title>
   </head>
   <body>
-    <div class="desktop">
-      <div id="icons">
-        <i class="fa-solid fa-user"></i>
+    <div id="icons">
+        <i class="fa-solid fa-user" ></i>
         <i class="fa-solid fa-bag-shopping"></i>
         <i class="fa-solid fa-globe"></i>
+       </div>
+        <div class="container">
+          <button class="hamburger">
+              <div class="bar"></div>
+          </button>
       </div>
-      <div id="buttons">
-        <a href="index.html"><button id="home">HOME</button></a>
-        <a href="category.html"><button id="tours">TOURS</button></a>
-        <a href="aboutus.html"><button id="aboutus">ABOUT US</button></a>
-        <button id="contactus">CONTACT US</button>
-    </div>
-    <div id="rectangle"><h1 style="font-size:5vw"class="desktop" id="rectangletext">Who are we?</h1></div>
+      </header>
+      <nav class="mobile-nav">
+      <a href="landingpage.html">HOME</a>
+      <a href="#">TOURS</a>
+      <a href="aboutus.html">ABOUT US</a>
+      <a href="#">CONTACT US</a>
+      </nav>
+
+    <div id="rectangle"><h1 style="font-size:5vw" class="desktop" id="rectangletext">Who are we?</h1></div>
  
 
-    <div id="textblock">
+    <div id="">
        <!-- Image taken from Unsplash -->
        
        
@@ -53,7 +54,7 @@
          
          
          <section>
-          
+            
             
             <button class="chat-btn"><i class="material-symbols-outlined"> <span style='font-size:68px;'>&#9993;</span> </i>
             </button>
@@ -76,15 +77,8 @@
                   </div>
              </div>
             </section>
-    
 
-
-
-
-
-
-
-    <script src="aboutus.js"></script> 
+    <script src="aboutusmobile.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/@joeattradi/emoji-button@3.1.1/dist/index.min.js"></script>
   </body>
 </html>
