@@ -2,49 +2,91 @@ body {
   background-color: #f6f0f4;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
-  width: 100;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
+
 #wee {
-  position: relative;
-  right: 700px;
-  bottom: 350px;
-  width: 600px;
-  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  position: absolute;
+  top: 18vw;
+  left: -10vw;
+  width: 40%;
+  max-width: 600px;
 }
 
 #textblock {
   position: absolute;
-  top: 35vw;
-  left: 55vw;
-  max-height: 10vw;
-  width: 40vw;
-  font-size: 20px;
+  top: 30vw;
+  left: 18vw;
+  max-width: 80%;
+  font-size: 1.4vw;
   font-family: sans-serif;
-  text-align: center;
-}
-#rectangletext {
-  position: relative;
-  top: 40px;
+  text-align: right;
 }
 
-/* Kod för rätt färger på symbolen */
+#rectangletext {
+  position: absolute;
+  top: 28%;
+  left: 5%;
+  bottom: 1.2vw;
+  left: 8vw;
+  align-content: stretch;
+
+  font-size: 2.5vw;
+
+  font-family: sans-serif;
+  font-weight: bold;
+
+  width: 80vw;
+  height: 4vw;
+  color: #f6f0f4;
+  line-height: 3vw;
+  text-align: center;
+}
+#rectangle {
+  position: absolute;
+  top: 12vw;
+  right: 0vw;
+  left: 0vw;
+
+  background-color: #7d000e;
+  width: 110vw;
+  height: 10vw;
+}
+#rectangledown {
+  position: relative;
+  bottom: -500px;
+  right: 290px;
+  background-color: #7d000e;
+  width: 125vw;
+  height: 10vw;
+}
+
 .desktop .fa-user {
   position: relative;
   color: #000d0c;
   font-size: 4vw;
+  left: -50vw;
+  top: 1.5vw;
 }
 
 .desktop .fa-bag-shopping {
   position: relative;
   color: #000d0c;
   font-size: 4vw;
+  left: -50vw;
+  top: 1.5vw;
 }
 
 .desktop .fa-globe {
   position: relative;
   color: #000d0c;
   font-size: 4vw;
+  left: -50vw;
+  top: 1.5vw;
 }
 .chat-popup {
   font-family: Arial, sans-serif;
@@ -65,59 +107,46 @@ body {
 
 .desktop #home {
   position: relative;
-
   background-color: #7d000e;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
   font-size: 1.3vw;
   font-weight: 600;
-
   width: 10vw;
   height: 4vw;
   color: #f6f0f4;
-
   text-align: center;
-  z-index: 99;
 }
 
 .desktop #tours {
   position: relative;
-
   background-color: #7d000e;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
   font-size: 1.3vw;
   font-weight: 600;
-  z-index: 99;
-
   width: 10vw;
   height: 4vw;
   color: #f6f0f4;
-
   text-align: center;
 }
 .desktop #aboutus {
   position: relative;
-
   background-color: #7d000e;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
   font-size: 1.3vw;
   font-weight: 600;
-  z-index: 99;
-
   min-width: 10vw;
   min-height: 4vw;
   color: #f6f0f4;
-
   text-align: center;
 }
 .desktop #contactus {
   position: relative;
-
   background-color: #7d000e;
   border: 0;
   border-radius: 100px;
@@ -125,16 +154,13 @@ body {
   font-size: 1.3vw;
   font-weight: 600;
   justify-content: center;
-
   width: 10vw;
   height: 4vw;
   color: #f6f0f4;
-
   text-align: center;
-  z-index: 99;
 }
 .desktop #buttons {
-  position: absolute;
+  position: relative;
   top: 2vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -142,7 +168,6 @@ body {
   grid-column-gap: 0vw;
   grid-row-gap: 0vw;
   justify-items: right;
-  z-index: 99;
   width: 50vw;
   height: 0vw;
 }
@@ -160,45 +185,89 @@ body {
   height: 0vw;
   justify-items: start;
 }
-.desktop #rectangle {
-  position: relative;
-  top: 10vw;
-  right: 0vw;
-  left: 0vw;
 
-  background-color: #7d000e;
-  width: 100vw;
-  height: 10vw;
-}
-.desktop #rectangletext {
-  position: absolute;
-  bottom: 1.2vw;
-  left: 8vw;
-  align-content: stretch;
+/* Styles for screen sizes above 768px */
+@media (min-width: 768px) {
+  #hamburger {
+    display: none; /* Hide the hamburger icon */
+  }
+  /* Additional styles for the buttons on larger screens */
+  .desktop #buttons {
+    /* Remove the justify-items property to prevent moving "Contact Us" to the left */
+    justify-items: initial;
+    /* Add any other styles for the buttons on larger screens */
 
-  font-size: 2.5vw;
+    /* Add positioning styles to keep the "Contact Us" button in place */
+    position: absolute;
+    top: 4vw;
+    right: 45vw;
+    /* Adjust the values above to position the buttons where you want them */
+  }
 
-  font-family: sans-serif;
-  font-weight: bold;
-
-  width: 80vw;
-  height: 4vw;
-  color: #f6f0f4;
-  line-height: 3vw;
-  text-align: center;
-}
-.desktop #rectangledown {
-  position: relative;
-  top: 50px;
-  left: -814px;
-  background-color: #7d000e;
-  width: 100vw;
-  height: 10vw;
+  #home,
+  #tours,
+  #aboutus,
+  #contactus {
+    display: block;
+    /* Add any other styles for the buttons on larger screens */
+  }
 }
 
 /* Responsive styles using media queries */
 @media screen and (max-width: 768px) {
   /* Styles for screens up to 768px wide (e.g., smartphones) */
+  #hamburger {
+    position: absolute;
+    top: 5vw;
+    margin-left: 5vw;
+    display: block;
+  }
+  .hamburger {
+    position: absolute;
+    top: 3vw;
+    left: 10px;
+    display: block;
+    width: 35px;
+    height: 15px;
+    cursor: pointer;
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    z-index: 100;
+  }
+
+  #home,
+  #tours,
+  #aboutus,
+  #contactus {
+    display: none; /* Hide the buttons */
+  }
+
+  .hamburger .bar,
+  .hamburger:after,
+  .hamburger:before {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 3px;
+    background-color: #000000;
+    margin: 6px 0px;
+    transition: 0.4s;
+  }
+
+  .hamburger.is-active:before {
+    transform: rotate(-30deg) translate(-9px, 8px);
+  }
+
+  .hamburger.is-active:after {
+    transform: rotate(30deg) translate(-7px, -4px);
+  }
+
+  .hamburger.is-active .bar {
+    opacity: 0;
+  }
   .chat-popup {
     display: none;
     font-family: Arial, sans-serif;
