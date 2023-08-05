@@ -1,11 +1,53 @@
-@media (min-width: 500px) {
-  .mobile-nav {
-    display: none;
+/* Media query for smaller screens (e.g., phone screens) */
+@media screen and (max-width: 600px) {
+  .chat-popup {
+    display: none; /* Hide the chat bubble on smaller screens */
   }
+}
 
-  .hamburger {
-    display: block;
-  }
+#rectangledown {
+  position: relative;
+  top: 50px;
+  left: -814px;
+
+  background-color: #7d000e;
+  width: 100vw;
+  height: 10vw;
+}
+
+#wee {
+  /* Example adjustment for #wee on mobile */
+  position: relative;
+  right: auto; /* Reset right position */
+  bottom: auto; /* Reset bottom position */
+  width: 100%; /* Adjust width for mobile */
+}
+
+#textblock {
+  /* Example adjustment for #textblock on mobile */
+  position: relative;
+  top: auto; /* Reset top position */
+  left: auto; /* Reset left position */
+  max-height: none; /* Reset max-height for mobile */
+  width: 90vw; /* Adjust width for mobile */
+  font-size: 16px; /* Adjust font size for mobile */
+}
+
+#rectangledown {
+  /* Example adjustment for #rectangledown on mobile */
+  position: relative;
+  top: auto; /* Reset top position */
+  left: auto; /* Reset left position */
+  width: 100%; /* Adjust width for mobile */
+  height: 5vw; /* Adjust height for mobile */
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.hamburger {
+  display: block;
 }
 
 .textmobile {

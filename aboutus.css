@@ -1,8 +1,16 @@
+body {
+  background-color: #f6f0f4;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100;
+}
 #wee {
   position: relative;
   right: 700px;
   bottom: 350px;
   width: 600px;
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
 }
 
 #textblock {
@@ -39,6 +47,7 @@
   font-size: 4vw;
 }
 .chat-popup {
+  font-family: Arial, sans-serif;
   display: fixed;
   /* display: fixed; */
   position: fixed;
@@ -54,12 +63,209 @@
   border-radius: 10px;
 }
 
-#rectangledown {
+.desktop #home {
   position: relative;
-  top: 50px;
-  left: -814px;
+
+  background-color: #7d000e;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 1.3vw;
+  font-weight: 600;
+
+  width: 10vw;
+  height: 4vw;
+  color: #f6f0f4;
+
+  text-align: center;
+  z-index: 99;
+}
+
+.desktop #tours {
+  position: relative;
+
+  background-color: #7d000e;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 1.3vw;
+  font-weight: 600;
+  z-index: 99;
+
+  width: 10vw;
+  height: 4vw;
+  color: #f6f0f4;
+
+  text-align: center;
+}
+.desktop #aboutus {
+  position: relative;
+
+  background-color: #7d000e;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 1.3vw;
+  font-weight: 600;
+  z-index: 99;
+
+  min-width: 10vw;
+  min-height: 4vw;
+  color: #f6f0f4;
+
+  text-align: center;
+}
+.desktop #contactus {
+  position: relative;
+
+  background-color: #7d000e;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 1.3vw;
+  font-weight: 600;
+  justify-content: center;
+
+  width: 10vw;
+  height: 4vw;
+  color: #f6f0f4;
+
+  text-align: center;
+  z-index: 99;
+}
+.desktop #buttons {
+  position: absolute;
+  top: 2vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0vw;
+  grid-row-gap: 0vw;
+  justify-items: right;
+  z-index: 99;
+  width: 50vw;
+  height: 0vw;
+}
+.desktop #icons {
+  position: absolute;
+  top: 2vw;
+  margin-left: 82vw;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0vw;
+  grid-row-gap: 0vw;
+  z-index: 99;
+  width: 16vw;
+  height: 0vw;
+  justify-items: start;
+}
+.desktop #rectangle {
+  position: relative;
+  top: 10vw;
+  right: 0vw;
+  left: 0vw;
 
   background-color: #7d000e;
   width: 100vw;
   height: 10vw;
+}
+.desktop #rectangletext {
+  position: absolute;
+  bottom: 1.2vw;
+  left: 8vw;
+  align-content: stretch;
+
+  font-size: 2.5vw;
+
+  font-family: sans-serif;
+  font-weight: bold;
+
+  width: 80vw;
+  height: 4vw;
+  color: #f6f0f4;
+  line-height: 3vw;
+  text-align: center;
+}
+.desktop #rectangledown {
+  position: relative;
+  top: 50px;
+  left: -814px;
+  background-color: #7d000e;
+  width: 100vw;
+  height: 10vw;
+}
+
+/* Responsive styles using media queries */
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (e.g., smartphones) */
+  .chat-popup {
+    display: none;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    font-size: 2.5vw;
+    bottom: 30px; /* Adjust the distance from the bottom as needed */
+    right: 10px; /* Adjust the distance from the right as needed */
+    height: 300px; /* Adjust the height as needed */
+    width: 250px; /* Adjust the width as needed */
+    max-width: 90%; /* Add a max-width to prevent it from getting too large */
+    background-color: rgb(195, 195, 178);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.75rem;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+
+  #wee {
+    /* Adjust the width of the image for the 768px version */
+    /* You can also adjust the height if needed */
+    max-width: 100%; /* For example, setting it to 80% of the container width */
+
+    /* Position the image at the bottom */
+    position: relative;
+    top: 13vw;
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%);
+  }
+  #textblock {
+    position: relative;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80%;
+    font-size: 3.5vw;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #rectangletext {
+    position: relative;
+    top: 40%;
+    left: 8%;
+    font-size: 10vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 80%;
+    color: #f6f0f4;
+    text-align: center;
+  }
+  .desktop #rectangle {
+    position: relative;
+    top: 10vw;
+    right: 0vw;
+    left: 0vw;
+
+    background-color: #7d000e;
+    width: 100vw;
+    height: 20vw;
+  }
+  .desktop #rectangledown {
+    position: relative;
+    top: 290px;
+    left: 50%; /* Change the value to position it horizontally */
+    transform: translateX(-50%); /* Center the rectangle horizontally */
+    background-color: #7d000e;
+    width: 105vw; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+  }
 }
