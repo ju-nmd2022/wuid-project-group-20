@@ -274,7 +274,7 @@ body {
     position: fixed;
     font-size: 2.5vw;
     bottom: 30px; /* Adjust the distance from the bottom as needed */
-    right: 10px; /* Adjust the distance from the right as needed */
+    right: 11px; /* Adjust the distance from the right as needed */
     height: 300px; /* Adjust the height as needed */
     width: 250px; /* Adjust the width as needed */
     max-width: 90%; /* Add a max-width to prevent it from getting too large */
@@ -287,13 +287,10 @@ body {
   }
 
   #wee {
-    /* Adjust the width of the image for the 768px version */
-    /* You can also adjust the height if needed */
-    max-width: 100%; /* For example, setting it to 80% of the container width */
+    max-width: 100%;
 
-    /* Position the image at the bottom */
-    position: relative;
-    top: 13vw;
+    position: absolute;
+    top: 56vw;
     left: 50%; /* Center the image horizontally */
     transform: translateX(-50%);
   }
@@ -320,7 +317,7 @@ body {
   }
   .desktop #rectangle {
     position: relative;
-    top: 10vw;
+    top: -15vw;
     right: 0vw;
     left: 0vw;
 
@@ -330,11 +327,11 @@ body {
   }
   .desktop #rectangledown {
     position: relative;
-    top: 290px;
+    top: 116px;
     left: 50%; /* Change the value to position it horizontally */
     transform: translateX(-50%); /* Center the rectangle horizontally */
     background-color: #7d000e;
-    width: 105vw; /* Adjust the width as needed */
-    height: 50px; /* Adjust the height as needed */
+    width: 100vw; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
   }
 }
